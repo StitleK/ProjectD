@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL6gfwz6OeP"
-#define BLYNK_TEMPLATE_NAME "Test Relay"
+#define BLYNK_TEMPLATE_ID "xxx"
+#define BLYNK_TEMPLATE_NAME "xxx"
 
 #define BLYNK_FIRMWARE_VERSION        "0.1.0"
 
