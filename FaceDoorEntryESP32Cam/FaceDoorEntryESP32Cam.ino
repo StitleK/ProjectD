@@ -12,9 +12,9 @@
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 
-const char* ssid = "T";
-const char* password = "TITLEKUy";
-const char* lineToken = "EAZajBi3nrSv6oTzGdAgK68hVliPNFPmhvmEGi9YdUw";
+const char* ssid = "xxx";
+const char* password = "xxx";
+const char* lineToken = "xxx";
 
 #define ENROLL_CONFIRM_TIMES 5
 #define FACE_ID_SAVE_NUMBER 7
@@ -324,7 +324,7 @@ void loop() {
               
               client.send("FACE NOT RECOGNISED");
               LINE.setToken(lineToken);
-              LINE.notify("Face not recognised. Please check at http://172.20.10.11");
+              LINE.notify("Face not recognised. Please check at xxxx");
               delay(10000);
             }
           }
